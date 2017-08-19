@@ -14,7 +14,7 @@ class Shenanigans:
     @commands.command(pass_context=True)
     async def double(self, ctx, number: int):
         """doubles what you give me"""
-        pass
+        pass  self.bot.say('That cheeseburger looks delicious')
 
     @commands.command(pass_context=True, no_pm=True)
     async def add(self, ctx, a: int, b: int):
